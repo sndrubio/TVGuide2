@@ -1,0 +1,157 @@
+body{
+background-color:#F5F5F5;
+}
+
+#button{
+border:solid;
+margin-left:35px;
+border-color:#cccccc;
+}
+
+#search{
+margin-left:4%;
+font-family: 'Prosto One', cursive;
+font-size:14px;
+color:#555555;
+}
+
+#searchid{
+background-color:e3e3e3;
+border: solid;
+border-color:#cccccc;
+font-size:15px;
+color:#000099;
+border-radius:3px;
+padding-left:2px;
+margin-left:10px;
+margin-bottom:5px;
+width:80px;
+height:20px;
+}
+
+#numberOfResults{
+background-color:e3e3e3;
+border: solid;
+border-color:#cccccc;
+font-size:"5px;";
+color:#000099;
+border-radius:3px;
+padding-left:2px;
+margin-left:10px;
+width:80px;
+height:20px;
+
+}
+
+
+
+/*Episodes CSS*/
+
+#searchResults{
+width:95%;
+background-image:url(../img/tvshows.jpg);
+border-radius:30px;
+overflow: hidden;
+margin-left:2%;
+}
+
+#searchResults h1{
+font-family: 'Prosto One', cursive;
+padding-left:20px;
+color:#D20000;
+background-color:#C0C0C0;
+text-decoration:underline;
+border-radius:12px;
+padding:12px;
+margin-left:20px;
+font-size:22px;
+}
+
+#result{
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 97%, rgba(255,255,255,1) 99%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.8)), color-stop(97%,rgba(255,255,255,0.8)), color-stop(99%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 97%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 97%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 97%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 97%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border-radius:25px;
+padding:20px;
+margin:15px;
+color:#D20000;
+font-family: 'Prosto One', cursive;
+float:left;
+height:200px;
+width:170px;
+position:static;
+}
+
+h2.title{
+font-size:13px;
+}
+
+h3.overview{
+font-size:10px;
+text-indent:15px;
+height:120px;
+width:170px;
+padding:4px;
+overflow-y:auto;
+}
+
+#nosearch h3{
+font-family: 'Prosto One', cursive;
+font-size:22px;
+text-indent:15px;
+padding-left:20px;
+color:#D20000;
+border-radius:12px;
+padding:12px;
+margin-left:20px;
+}
+
+
+/*CSS3 Animation*/
+
+#logo img{
+background-repeat:no-repeat;
+margin:25px 25px 10px 25px;
+border:hidden;
+background:red;
+position:relative;
+animation-name:assignment2;
+animation-duration:5s;
+animation-timing-function:linear;
+animation-delay:0.5s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;
+/* Safari and Chrome: */
+-webkit-animation-name:assignment2;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:0.5s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+
+@keyframes assignment2
+{
+0%   {background:red; left:0px; }
+25%  {background:yellow; left:100px;}
+50%  {background:blue; left:0px; }
+75%  {background:green; left:100px; }
+100% {background:red; left:100px; }
+}
+
+@-webkit-keyframes assignment2 /* Safari and Chrome */
+{
+0%   {background:red; left:0px; }
+25%  {background:yellow; left:100px;}
+50%  {background:blue; left:0px; }
+75%  {background:green; left:100px; }
+100% {background:red; left:0px; }
+}
+
+
